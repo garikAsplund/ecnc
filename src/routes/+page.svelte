@@ -1,7 +1,3 @@
-<script lang="ts">
-	import Logo from '$lib/SVGs/logo.svelte';
-</script>
-
 <div class="relative h-screen w-full">
 	<enhanced:img
 		src="/static/hero.jpg"

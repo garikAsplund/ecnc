@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import Logo from './SVGs/logo.svelte';
-	import Facebook from './SVGs/Facebook.svelte';
+	import Logo from '$lib/SVGs/Logo.svelte';
+	import Facebook from '$lib/SVGs/Facebook.svelte';
 </script>
 
 <nav class="{$page.url.pathname === '/' ? 'fixed ' : 'sticky bg-white'} top-0 z-40 w-full font-bold md:pb-4" id="nav" aria-label="Main navigation">
