@@ -31,7 +31,7 @@
             <section>
                 <h2 class="mb-4 text-2xl font-semibold text-stone-700">Our Mission</h2>
                 <p class="mb-6 leading-relaxed text-stone-600">
-                    The Eagle Cap Nordic Club enhances cross-country skiing and snowshoeing in Central Oregon through various initiatives and activities:
+                    The Eagle Cap Nordic Club enhances cross-country skiing and snowshoeing in Northeast Oregon through various initiatives and activities:
                 </p>
                 <ul class="grid gap-4 text-stone-600 sm:grid-cols-2">
                     {#each missionPoints as point}
