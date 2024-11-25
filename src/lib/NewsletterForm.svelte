@@ -22,7 +22,7 @@
 	}
 </script>
 
-<section class="flex flex-col items-center dark:bg-current ">
+<section class="flex flex-col items-center dark:bg-current rounded-md">
 	<div class="my-8 w-full max-w-md space-y-8 px-4">
 		<h2 class="text-center text-lg font-semibold dark:text-gray-100">
 			Sign up for our newsletter!
@@ -55,21 +55,21 @@
 							autocomplete="email"
 							disabled={isLoading}
 							class:opacity-50={isLoading}
-							class="w-full rounded-md border border-gray-300 bg-white/90 py-2 pl-10 pr-4 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800/90 dark:text-gray-100 dark:placeholder-gray-400 dark:focus:bg-gray-700/90"
+							class="w-full rounded-md border border-gray-300  bg-white/90 py-2 pl-10 pr-4 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800/90 dark:text-gray-100 dark:placeholder-gray-400 dark:focus:bg-gray-700/90"
 						/>
 					</div>
 					<button
-  type="submit"
-  class="rounded-md bg-transparent px-4 py-2 font-medium shadow-lg transition-all border border-black hover:bg-black/10 hover:border-black/50"
-  class:opacity-50={isLoading}
-  disabled={isLoading}
->
-  {#if isLoading}
-    Submitting...
-  {:else}
-    Subscribe
-  {/if}
-</button>
+						type="submit"
+						class="rounded-md border border-black dark:text-gray-400 dark:border-gray-400 dark:hover:border-gray-500 bg-transparent px-4 py-2 font-medium shadow-lg transition-all hover:border-black/50 hover:bg-black/10"
+						class:opacity-50={isLoading}
+						disabled={isLoading}
+					>
+						{#if isLoading}
+							Submitting...
+						{:else}
+							Subscribe
+						{/if}
+					</button>
 				</div>
 				{#if $message && !isSubmitted}
 					<p class="rounded bg-black/50 px-4 py-2 text-sm text-gray-100">{$message}</p>
