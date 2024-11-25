@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+    import SCSWeather from '$lib/SCSWeather.svelte';
 
 	let isLoading = $state(true);
 	let mapLoaded = $state(false);
@@ -62,16 +63,14 @@
 			if (widgetScript.parentNode) {
 				widgetScript.parentNode.removeChild(widgetScript);
 			}
-			delete window.initMap;
 		};
 	});
 </script>
 
 <svelte:head>
-	<title>Weather Stations | XC Site</title>
 	<meta name="description" content="Weather stations map for cross-country conditions" />
 </svelte:head>
-
+<SCSWeather />
 <div class="container">
 	<h1>Weather Stations</h1>
 
