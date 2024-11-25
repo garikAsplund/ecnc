@@ -22,7 +22,7 @@
 
 		<div class="space-y-12">
 			<section>
-				<h2 class="mb-4 text-2xl font-semibold text-stone-700">Our Story</h2>
+				<h2 class="mb-4 text-2xl font-semibold text-stone-700">Our Mission</h2>
 				<p class="leading-relaxed text-stone-600">
 					As the newest chapter of the <a
 						href="https://onc.org/"
@@ -41,7 +41,7 @@
 			</section>
 
 			<section>
-				<h2 class="mb-4 text-2xl font-semibold text-stone-700">Our Mission</h2>
+				<h2 class="mb-4 text-2xl font-semibold text-stone-700">Our Vision</h2>
 				<p class="mb-6 leading-relaxed text-stone-600">
 					The Eagle Cap Nordic Club enhances cross-country skiing and snowshoeing in Wallowa County
 					through various initiatives and activities:
