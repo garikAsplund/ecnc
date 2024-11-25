@@ -76,24 +76,14 @@
 				{/if}
 			</form>
 		{/if}
-
-		<!-- <div class="mt-4 text-center">
-			<a
-				href="/newsletters/october-2024.pdf"
-				target="_blank"
-				class="text-base hover:underline hover:underline-offset-4 hover:opacity-75 dark:text-gray-100"
-			>
-				Read our latest newsletter
-			</a>
-		</div> -->
 	</div>
 </section>
 
 <style>
 	@media (prefers-color-scheme: dark) {
 		input:-webkit-autofill {
-			-webkit-box-shadow: 0 0 0px 1000px #1a1a1a inset; /* Sets a custom background color for autofill */
-			-webkit-text-fill-color: #f1f1f1; /* Ensures text color stays consistent */
+			-webkit-box-shadow: 0 0 0px 1000px #1a1a1a inset;
+			-webkit-text-fill-color: #f1f1f1;
 		}
 
 		input:-webkit-autofill:focus {
