@@ -2,7 +2,7 @@
     let showMap = $state(false);
 </script>
 
-<div class="flex w-full h-[90vh] flex-col items-center">
+<div class="flex w-full h-[90vh] flex-col items-center relative">
     <p class="pb-12">Click <a href="/ECNC_2024.pdf" target="_blank" aria-label="Trail map" class="underline underline-offset-1 hover:opacity-75">here</a> for a PDF of our trails.</p>
     <div class="relative h-full w-2/3">
         {#if !showMap}

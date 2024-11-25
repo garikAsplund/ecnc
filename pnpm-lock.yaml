@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      svelte-lucide:
+        specifier: ^2.0.1
+        version: 2.0.1(svelte@5.2.7)
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
@@ -54,7 +58,7 @@ importers:
         specifier: ^0.6.5
         version: 0.6.9(prettier-plugin-svelte@3.3.2(prettier@3.3.3)(svelte@5.2.7))(prettier@3.3.3)
       svelte:
-        specifier: ^5.0.0
+        specifier: ^5.2.7
         version: 5.2.7
       svelte-check:
         specifier: ^4.0.0
@@ -1677,6 +1681,12 @@ packages:
     peerDependenciesMeta:
       svelte:
         optional: true
+
+  svelte-lucide@2.0.1:
+    resolution: {integrity: sha512-VjcVYrgTBC9ZyUCIYT0pzFCSzOOBj5zKxQ9UTzq9GmJSjxwq0PPRmdsIl0F38bQ2IhAtuCLs0gkl56Xw8621rQ==}
+    engines: {node: '>=18.0.0', npm: '>=7.0.0'}
+    peerDependencies:
+      svelte: ^5.0.0
 
   svelte-parse-markup@0.1.5:
     resolution: {integrity: sha512-T6mqZrySltPCDwfKXWQ6zehipVLk4GWfH1zCMGgRtLlOIFPuw58ZxVYxVvotMJgJaurKi1i14viB2GIRKXeJTQ==}
@@ -3324,6 +3334,10 @@ snapshots:
       postcss: 8.4.49
       postcss-scss: 4.0.9(postcss@8.4.49)
     optionalDependencies:
+      svelte: 5.2.7
+
+  svelte-lucide@2.0.1(svelte@5.2.7):
+    dependencies:
       svelte: 5.2.7
 
   svelte-parse-markup@0.1.5(svelte@5.2.7):
