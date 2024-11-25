@@ -17,7 +17,6 @@
 
 <div class="flex min-h-screen w-full flex-col items-center bg-white">
 	<div class="w-full max-w-4xl px-8 pb-12">
-		
 		<h1 class="mb-12 text-center text-4xl font-bold text-stone-800">Eagle Cap Nordic Club</h1>
 
 		<div class="space-y-12">
@@ -32,11 +31,12 @@
 					>, we're dedicated to enriching Wallowa County's cross-country skiing community. Our focus
 					is on making the region's exceptional Nordic skiing opportunities more accessible and
 					enjoyable for everyone.
-				</p><enhanced:img
-			src="/static/lake.jpg"
-			class=" w-full object-cover mt-8"
-			alt="Don't do this alone"
-		/>
+				</p>
+				<enhanced:img
+					src="/static/lake.jpg"
+					class=" mt-8 w-full object-cover"
+					alt="Don't do this alone"
+				/>
 				<hr class="mt-12 border-stone-200" />
 			</section>
 
@@ -81,11 +81,15 @@
 					growing community. Your membership helps support trail maintenance, plowing, grooming
 					initiatives, and community events.
 				</p>
-				<button
+				<a
+					href="https://www.paypal.com/donate/?hosted_button_id=55ZANLU8A2UPA"
+					rel="noopener noreferrer"
+					target="_blank"
+                    aria-label="Become a member"
 					class="rounded-lg bg-stone-600 px-6 py-2 text-white transition-colors hover:bg-stone-700"
 				>
 					Become a Member
-				</button>
+				</a>
 			</section>
 		</div>
 	</div>

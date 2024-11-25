@@ -4,6 +4,60 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": ["SportsClub", "NonprofitOrganization"],
+				"name": "Eagle Cap Nordic Club",
+				"description": "A community nonprofit organization promoting cross-country skiing in Wallowa County, Oregon, based near Joseph and the Eagle Cap Wilderness",
+				"@id": "https://www.eaglecapnordic.org/",
+				"url": "https://www.eaglecapnordic.org",
+				"sameAs": [
+				  "https://www.facebook.com/groups/1441033243294741"
+				],
+				"address": {
+				  "@type": "PostalAddress",
+				  "addressLocality": "Joseph",
+				  "addressRegion": "OR",
+				  "addressCountry": "US"
+				},
+				"areaServed": {
+				  "@type": "GeoCircle",
+				  "geoMidpoint": {
+					"@type": "GeoCoordinates",
+					"latitude": "45.3543",
+					"longitude": "-117.2296"
+				  },
+				  "geoRadius": "30000"
+				},
+				"location": {
+				  "@type": "Place",
+				  "name": "Joseph, Oregon - Eagle Cap Wilderness Area",
+				  "geo": {
+					"@type": "GeoCoordinates",
+					"latitude": "45.3543",
+					"longitude": "-117.2296"
+				  }
+				},
+				"sport": "Cross-country skiing",
+				"keywords": [
+				  "cross-country skiing",
+				  "nordic skiing",
+				  "Wallowa County",
+				  "Joseph Oregon",
+				  "Eagle Cap Wilderness",
+				  "winter sports",
+				  "outdoor recreation",
+				  "ski club",
+				  "community group"
+				],
+				"offers": {
+				  "@type": "Offer",
+				  "description": "Community-based Nordic skiing opportunities in Wallowa County",
+				  "areaServed": "Wallowa County"
+				}
+			  }
+		  </script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
