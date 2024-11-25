@@ -3,7 +3,7 @@
 </script>
 
 <footer
-	class="relative bottom-0 mt-auto flex w-full flex-col items-center justify-center space-y-8 border-t border-t-zinc-100 p-8 text-center"
+	class="relative bottom-0 mt-auto flex w-full flex-col items-center justify-center space-y-8 md:space-y-0 border-t border-t-zinc-100 p-8 text-center"
 >
 	<a
 		href="https://www.facebook.com/groups/1441033243294741"
