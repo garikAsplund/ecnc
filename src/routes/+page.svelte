@@ -1,8 +1,18 @@
 <div class="relative h-screen w-full">
 	<enhanced:img
-		src="/static/hero.jpg"
-		alt="Redd Sauna"
+		src="/static/hero-lq.jpg"
+		alt="Skiing area at Salt Creek Summit"
 		class="absolute inset-0 -z-10 h-full w-full object-cover object-center"
+		loading="eager"
+		fetchpriority="high"
+
+	/><enhanced:img
+		src="/static/hero.jpg"
+		alt="Skiing area at Salt Creek Summit"
+		class="absolute inset-0 -z-10 h-full w-full object-cover object-center"
+		loading="eager"
+		fetchpriority="high"
+
 	/>
 	<!-- <div class="absolute inset-0 z-20 bg-black/10"></div> -->
 	<div class="w-full flex flex-col justify-center h-[70vh] items-center space-y-8">
