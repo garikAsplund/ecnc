@@ -5,7 +5,7 @@
 </script>
 
 <nav class="{$page.url.pathname === '/' ? 'fixed ' : 'sticky bg-white'} top-0 z-40 w-full font-bold md:pb-4" id="nav" aria-label="Main navigation">
-	<div class="relative flex w-full items-center justify-between pt-8 xl:px-24 lg:px-16 md:px-12">
+	<div class="relative flex w-full items-center justify-between pt-8 xl:px-16  md:px-12">
 		<div class="flex items-center">
 			<a
 				href="/"
