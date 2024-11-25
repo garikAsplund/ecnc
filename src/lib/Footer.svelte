@@ -1,4 +1,18 @@
-<footer class="relative bottom-0 mt-auto flex flex-col w-full items-center justify-center space-x-4 p-8 text-center border-t border-t-zinc-100">
+<script lang="ts">
+	import Facebook from './SVGs/Facebook.svelte';
+</script>
+
+<footer
+	class="relative bottom-0 mt-auto flex w-full flex-col items-center justify-center space-y-8 border-t border-t-zinc-100 p-8 text-center"
+>
+	<a
+		href="https://www.facebook.com/groups/1441033243294741"
+		target="_blank"
+		rel="noopener"
+		class="md:hidden hover:opacity-75 block"
+	>
+		<Facebook />
+	</a>
 	<p>
 		Eagle Cap Nordic Club is a chapter of the <a
 			href="https://onc.org/"
