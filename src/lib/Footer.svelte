@@ -1,4 +1,4 @@
-<footer class="relative bottom-0 mt-auto flex w-full justify-center space-x-4 py-8">
+<footer class="relative bottom-0 mt-auto flex flex-col w-full items-center justify-center space-x-4 p-8 text-center border-t border-t-zinc-100">
 	<p>
 		Eagle Cap Nordic Club is a chapter of the <a
 			href="https://onc.org/"

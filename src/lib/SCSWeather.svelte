@@ -44,6 +44,9 @@
             Salt Creek Summit Weather
         </div>
         <div class="text-sm text-gray-300">
+            <a href="https://forecast.weather.gov/MapClick.php?lon=-117.07044996321203&lat=45.21018617575402" target="_blank" aria-label="Full forecast" class="underline underline-offset-4 hover:opacity-75">Full Forecast</a>
+        </div>
+        <div class="text-sm text-gray-300">
             Weather Report Time: {currentTime.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}
         </div>
     </div>
@@ -65,7 +68,7 @@
                 <!-- Day Forecast -->
                  {#if i < 7}
                 <div class="p-4 text-center border-b border-gray-200">
-                    <div class="font-bold mb-2">{forecast.name}</div>
+                    <div class="font-bold mb-2 h-8">{forecast.name}</div>
                     <div class="text-4xl mb-2">
                         {getWeatherIcon(forecast.shortForecast)}
                         <div class="mt-2 text-sm bg-blue-50 p-1 rounded {forecast.probabilityOfPrecipitation.value ? '' : 'invisible'}">

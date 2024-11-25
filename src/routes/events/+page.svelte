@@ -9,6 +9,6 @@
 		rel="noreferrer noopener"
 		target="_blank"
 		aria-label="Ski swap location"
-		class="mt-8 flex underline underline-offset-2 hover:opacity-75"><MapPin />Ski swap location</a
+		class="mt-8 flex underline underline-offset-2 hover:opacity-75 gap-2"><MapPin />Ski swap location</a
 	>
 </div>

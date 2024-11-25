@@ -4,8 +4,8 @@
 	import Facebook from '$lib/SVGs/Facebook.svelte';
 </script>
 
-<nav class="{$page.url.pathname === '/' ? 'fixed ' : 'sticky bg-white'} top-0 z-40 w-full font-bold md:pb-4" id="nav" aria-label="Main navigation">
-	<div class="relative flex w-full items-center justify-between pt-8 xl:px-16  md:px-12">
+<nav class="{$page.url.pathname === '/' ? 'fixed backdrop-blur-md' : 'sticky bg-white'} top-0 z-40 w-full font-bold md:pb-4" id="nav" aria-label="Main navigation">
+	<div class="relative flex w-full items-center justify-between md:pt-8 p-4 xl:px-16  md:px-12">
 		<div class="flex items-center">
 			<a
 				href="/"
@@ -18,9 +18,9 @@
 			<a
 				href="/"
 				aria-label="Home"
-				class="flex items-center gap-4 text-5xl font-thin hover:opacity-75 lg:hidden"
+				class="flex items-center gap-2 text-5xl font-thin hover:opacity-75 lg:hidden"
 			>
-				<Logo size={64} />
+				<Logo size={48} />
 				ECNC
 			</a>
 		</div>
@@ -34,7 +34,7 @@
 			<Logo />
 			<span class="-translate-y-4">Nordic Club</span>
 		</a> -->
-		<div class="flex items-center xl:space-x-4 lg:space-x-2">
+		<div class="md:flex items-center xl:space-x-4 lg:space-x-2 hidden md:scale-75 lg:scale-100">
 			<a
 				href="/about"
 				class="p-2 text-2xl hover:opacity-75 {$page.url.pathname === '/about' ? 'underline underline-offset-8' : ''}"
