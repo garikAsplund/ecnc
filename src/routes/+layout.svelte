@@ -14,7 +14,7 @@
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://eaglecapnordic.org" />
+  <meta property="og:url" content="https://www.eaglecapnordic.org" />
   <meta property="og:title" content="Eagle Cap Nordic Club - XC Skiing in Northeast Oregon" />
   <meta property="og:description" content="Experience backcountry cross-country skiing in stunning Wallowa County. Join our community-driven nordic ski club to explore winter recreation opportunities in Northeast Oregon's beautiful mountains." />
   <meta property="og:image" content="/static/hero.jpg" />
@@ -22,7 +22,7 @@
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://eaglecapnordic.org" />
+  <meta name="twitter:url" content="https://www.eaglecapnordic.org" />
   <meta name="twitter:title" content="Eagle Cap Nordic Club - XC Skiing in Northeast Oregon" />
   <meta name="twitter:description" content="Experience backcountry cross-country skiing in stunning Wallowa County. Join our community-driven nordic ski club to explore winter recreation opportunities in Northeast Oregon's beautiful mountains." />
   <meta name="twitter:image" content="/static/hero.jpg" />
