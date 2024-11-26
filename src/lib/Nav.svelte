@@ -23,11 +23,11 @@
 				aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				About
 			</a>
-			<a href="/access"
+			<a href="/trails"
 				class="px-2 py-4 text-sm md:text-xl lg:text-2xl hover:opacity-75 {$page.url.pathname === '/access' ? 'underline underline-offset-8' : ''}"
-				aria-label="Frequently asked questions"
+				aria-label="Trails"
 				aria-current={$page.url.pathname === '/access' ? 'page' : undefined}>
-				Access
+				Trails
 			</a>
 			<a href="/weather"
 				class="px-2 py-4 text-sm md:text-xl lg:text-2xl hover:opacity-75 {$page.url.pathname === '/weather' ? 'underline underline-offset-8' : ''}"
