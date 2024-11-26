@@ -24,9 +24,9 @@
 				About
 			</a>
 			<a href="/trails"
-				class="px-2 py-4 text-sm md:text-xl lg:text-2xl hover:opacity-75 {$page.url.pathname === '/access' ? 'underline underline-offset-8' : ''}"
+				class="px-2 py-4 text-sm md:text-xl lg:text-2xl hover:opacity-75 {$page.url.pathname === '/trails' ? 'underline underline-offset-8' : ''}"
 				aria-label="Trails"
-				aria-current={$page.url.pathname === '/access' ? 'page' : undefined}>
+				aria-current={$page.url.pathname === '/trails' ? 'page' : undefined}>
 				Trails
 			</a>
 			<a href="/weather"
