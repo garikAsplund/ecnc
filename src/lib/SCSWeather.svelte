@@ -70,12 +70,12 @@
                 <div class="p-4 text-center border-b border-gray-200">
                     <div class="font-bold mb-2 h-8">{forecast.name}</div>
                     <div class="text-4xl mb-2">
-                        {getWeatherIcon(forecast.shortForecast)}
+                        <span class="emoji">{getWeatherIcon(forecast.shortForecast)}</span>
                         <div class="mt-2 text-sm bg-blue-50 p-1 rounded {forecast.probabilityOfPrecipitation.value ? '' : 'invisible'}">
                             {forecast.probabilityOfPrecipitation.value}%
                         </div>
                     </div>
-                    <div class="font-bold  {forecast.isDaytime ? 'text-red-600 ' : 'text-blue-600 '}">
+                    <div class="font-bold emoji {forecast.isDaytime ? 'text-red-600 dark:brightness-[90%]' : 'text-blue-600 dark:brightness-[90%]'}">
                         {forecast.isDaytime ? 'High ' : 'Low '}{forecast.temperature} °F
                     </div>
                                         <div class="text-sm mt-2">{forecast.shortForecast}</div>

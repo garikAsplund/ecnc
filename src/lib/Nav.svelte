@@ -4,7 +4,7 @@
 	import Facebook from '$lib/SVGs/Facebook.svelte';
 </script>
 
-<nav class="{$page.url.pathname === '/' ? 'fixed backdrop-blur-md' : 'sticky bg-white'} top-0 z-40 w-full font-light md:font-bold md:pb-4" id="nav" aria-label="Main navigation">
+<nav class="{$page.url.pathname === '/' ? 'sticky backdrop-blur-md dark:invert dark:backdrop-invert' : 'sticky bg-neutral-50'} top-0 z-40 w-full font-light md:font-bold md:pb-4" id="nav" aria-label="Main navigation">
 	<div class="relative flex w-full items-center justify-between md:pt-8 p-4 xl:px-16 md:px-12">
 		<div class="flex items-center">
 			<a href="/" aria-label="Home" class="hidden items-center gap-4 xl:text-5xl lg:text-3xl font-thin hover:opacity-75 lg:flex">
