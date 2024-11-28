@@ -39,7 +39,8 @@
 
 <div class="max-w-7xl mx-auto p-4 font-sans">
     <!-- Title Bar -->
-    <div class="bg-gray-900 text-white px-4 py-3 flex justify-between items-center">
+    <!-- <div class="flex flex-col space-y-3  sm:space-y-0 sm:space-x-3 sm:items-center"> -->
+    <div class="bg-gray-800 text-neutral-50 px-4 py-3 flex flex-col space-y-2 sm:flex-row justify-between items-center ">
         <div class="text-xl font-bold">
             Salt Creek Summit Weather
         </div>

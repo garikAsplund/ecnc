@@ -5,7 +5,7 @@ export const load: PageServerLoad = async () => {
     const weatherService = new NWS();
     
     try {
-        const pointData = await weatherService.getPointData(45.3375, -117.2947);
+        const pointData = await weatherService.getPointData(45.20924, -117.07171);
         const forecast = await weatherService.getForecast(pointData);
         
         // Format the forecast periods to match the desired display

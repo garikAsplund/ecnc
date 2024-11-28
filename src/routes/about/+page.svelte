@@ -2,12 +2,11 @@
 	const boardMembers = [
 		{ role: 'President', name: 'Jerry Hustafa' },
 		{ role: 'Treasurer', name: 'Dana Nave' },
-		{ role: 'Secretary', name: 'Dany Clay' }
 	];
 	const missionPoints = [
 		'Organizing outings for ski touring and snowshoeing',
 		'Maintaining over 20 miles of cross-country and snowshoe trails',
-		'Planning for the addition of a Nordic shelter in the Lick Creek area',
+		'Planning for the addition of a Nordic shelter in the Salt Creek Summit area',
 		'Advocating for protection of the backcountry experience',
 		'Teaching Nordic skiing skills',
 		'Organizing social events'
