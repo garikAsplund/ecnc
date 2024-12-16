@@ -4,7 +4,7 @@
     // This would come from your backend/API
     const status = {
         isPlowed: true,
-        lastUpdated: "2024-11-27T08:00:00",
+        lastUpdated: "2024-12-15T12:00:00",
         conditions: "Plowed with some compact snow and ice",
     };
 </script>
