@@ -46,20 +46,19 @@
 
 		<!-- Hero Content -->
 		<div
-			class="flex h-full flex-col items-center px-8 pt-[calc(var(--nav-height)+12px)] dark:invert"
+			class="flex h-full flex-col items-center px-8 pt-[calc(var(--nav-height)+12px)] dark:invert space-y-8"
 		>
-			<div class="mb-8 text-center text-3xl font-semibold md:text-5xl lg:hidden">
+			<div class="text-center text-3xl font-semibold md:text-5xl lg:hidden">
 				Eagle Cap Nordic Club
 			</div>
 			<h1 class="text-center text-2xl font-extralight md:text-3xl xl:text-4xl">
 				Promoting cross-country skiing in Wallowa County
 			</h1>
-		
 			<a
 				href="https://www.facebook.com/groups/1441033243294741"
 				target="_blank"
 				rel="noopener"
-				class="mt-4 mb-8 flex w-full justify-center px-2 py-4 text-center underline underline-offset-2 hover:opacity-75 md:hidden"
+				class="mt-4  flex w-full justify-center px-2 py-4 text-center underline underline-offset-2 hover:opacity-75 md:hidden"
 			>
 				See conditions on Facebook
 			</a>
