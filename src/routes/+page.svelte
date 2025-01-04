@@ -54,13 +54,7 @@
 			<h1 class="text-center text-2xl font-extralight md:text-3xl xl:text-4xl">
 				Promoting cross-country skiing in Wallowa County
 			</h1>
-			<a
-				href="/events"
-				aria-label="Ski swap"
-				class="my-8 text-center text-lg underline underline-offset-2 hover:opacity-75"
-			>
-				Check out our ski swap on Decemeber 14!
-			</a>
+		
 			<a
 				href="https://www.facebook.com/groups/1441033243294741"
 				target="_blank"
