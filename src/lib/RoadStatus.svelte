@@ -5,7 +5,7 @@
     const status = {
         isPlowed: true,
         lastUpdated: "2025-02-05T08:00:00",
-        conditions: "Plowed after the big snow! Expect light dustings on top of a nice plow :)",
+        conditions: "Plowed after the big snow and the snow after that! Expect continued snow accumulation on top of a nice plow :)",
     };
 </script>
 
