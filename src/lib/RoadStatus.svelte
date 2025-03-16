@@ -1,11 +1,10 @@
 <script lang="ts">
     import { Car, Clock } from 'lucide-svelte';
 
-    // This would come from your backend/API
     const status = {
         isPlowed: true,
-        lastUpdated: "2025-02-09T08:00:00",
-        conditions: "Plowed after the big snow and the snow after that! Expect continued snow accumulation on top of a nice plow :)",
+        lastUpdated: "2025-03-15T08:00:00",
+        conditions: "Mostly pavement up to Target Road. The last mile is well traveled but also receiving lots of new snow.",
     };
 </script>
 
