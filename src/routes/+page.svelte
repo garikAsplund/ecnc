@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Affiliates from '$lib/Affiliates.svelte';
 	import NewsletterForm from '$lib/NewsletterForm.svelte';
 	import RoadStatus from '$lib/RoadStatus.svelte';
 	import { onMount } from 'svelte';
@@ -69,4 +70,5 @@
 	<div class="relative w-full px-8 pb-12 ">
 		<NewsletterForm {data} />
 	</div>
+	<Affiliates />
 </div>

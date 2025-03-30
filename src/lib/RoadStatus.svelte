@@ -3,8 +3,8 @@
 
     const status = {
         isPlowed: true,
-        lastUpdated: "2025-03-15T08:00:00",
-        conditions: "Mostly pavement up to Target Road. The last mile is well traveled but also receiving lots of new snow.",
+        lastUpdated: "2025-03-30T08:00:00",
+        conditions: "Mostly pavement with some slush. Spring conditions exist. Class V pothole navigation required.",
     };
 </script>
 
