@@ -1,7 +1,7 @@
 <script>
 	const boardMembers = [
 		{ role: 'President', name: 'Jerry Hustafa' },
-		{ role: 'Treasurer', name: 'Dana Nave' },
+		{ role: 'Treasurer', name: 'Lynne Curry' },
 	];
 	const missionPoints = [
 		'Organizing outings for ski touring and snowshoeing',

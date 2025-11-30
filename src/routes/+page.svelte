@@ -2,16 +2,17 @@
 	import Affiliates from '$lib/Affiliates.svelte';
 	import NewsletterForm from '$lib/NewsletterForm.svelte';
 	import RoadStatus from '$lib/RoadStatus.svelte';
+	import Event from '$lib/Event.svelte';
 	import { onMount } from 'svelte';
 
 	let scrollY = $state(0);
 	let navHeight: number = $state(0);
 
 	onMount(() => {
-		let navElement: HTMLDivElement = document.getElementById('nav');
+		let navElement = document.getElementById('nav') as HTMLDivElement | null;
 
 		function calculateNavHeight() {
-			if (navElement) {
+			if (navElement instanceof HTMLDivElement) {
 				navHeight = navElement.offsetHeight;
 				// console.log(`Navigation height: ${navHeight}px`);
 			}
@@ -63,12 +64,13 @@
 			>
 				See conditions on Facebook
 			</a>
-			<RoadStatus />
+			<!-- <RoadStatus /> -->
+			 <Event />
 		</div>
 	</div>
 
 	<div class="relative w-full px-8 pb-12 ">
-		<NewsletterForm {data} />
+		<!-- <NewsletterForm {data} /> -->
 	</div>
 	<Affiliates />
 </div>
