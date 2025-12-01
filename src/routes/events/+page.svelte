@@ -77,7 +77,7 @@
 				</div>
 			</div>
 
-			<hr class="border-gray-300 dark:border-gray-600" />
+			<!-- <hr class="border-gray-300 dark:border-gray-600" /> -->
 
 			<!-- Contact Information -->
 			<!-- <div class="flex items-start space-x-3">
