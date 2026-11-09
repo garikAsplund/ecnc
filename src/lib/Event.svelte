@@ -15,7 +15,7 @@
 
 	let {
 		title = 'Annual meeting',
-		date = '6 pm Tuesday 2 December',
+		date = '6 pm Wednesday 18 November',
 		description = 'Join us for free pizza at our annual meeting!',
 		location = 'M. Crow',
 		locationUrl = 'https://maps.app.goo.gl/fwuYt8RrkiWaW1he7',
