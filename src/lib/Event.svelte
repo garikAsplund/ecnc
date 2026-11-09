@@ -56,7 +56,7 @@
 				<div class="flex items-center space-x-2 text-md text-gray-700 dark:text-gray-300">
 					<Calendar size={20} />
                     <div class="flex flex-col items-start space-y-1">
-						<p class="font-semibold text-gray-900 dark:text-gray-100">Tuesday, December 2</p>
+						<p class="font-semibold text-gray-900 dark:text-gray-100">Wednesday, November 18</p>
 						<p class="text-gray-700 dark:text-gray-300">6:00 pm</p>
 					</div>
 				</div>
