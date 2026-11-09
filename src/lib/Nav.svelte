@@ -41,7 +41,7 @@
 				aria-current={$page.url.pathname === '/events' ? 'page' : undefined}>
 				Events
 			</a>
-			<a href="https://www.paypal.com/donate/?hosted_button_id=55ZANLU8A2UPA"
+			<a href="https://givebutter.com/2027-membership-drive"
 				rel="noopener noreferrer"
 				target="_blank"
 				aria-label="Donate"
