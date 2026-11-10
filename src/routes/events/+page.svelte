@@ -7,9 +7,9 @@
 		<!-- Event Image -->
 		<div class="flex w-full justify-center">
 			<enhanced:img
-				src="/static/SKI_SWAP.jpg"
+				src="/static/skiswap2026.jpg"
 				alt="Annual Ski Swap"
-				class="h-auto w-full max-w-2xl rounded-md md:h-[400px] object-cover"
+				class="h-auto w-full max-w-4xl rounded-md md:h-[600px] object-cover"
 			/>
 		</div>
 
@@ -23,7 +23,7 @@
 				<div class="flex items-start space-x-3">
 					<Calendar class="mt-1 h-5 w-5 flex-shrink-0 text-gray-700 dark:text-gray-300" />
 					<div>
-						<p class="font-semibold text-gray-900 dark:text-gray-100">Saturday, December 13</p>
+						<p class="font-semibold text-gray-900 dark:text-gray-100">Saturday, December 12</p>
 						<p class="text-gray-700 dark:text-gray-300">10:00 am - 1:00 pm</p>
 					</div>
 				</div>
