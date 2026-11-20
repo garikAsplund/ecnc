@@ -77,7 +77,7 @@
 				</p>
 				<div class="w-full flex justify-center">
 				<a
-					href="https://www.paypal.com/donate/?hosted_button_id=55ZANLU8A2UPA"
+					href="https://givebutter.com/2027-membership-drive"
 					rel="noopener noreferrer"
 					target="_blank"
                     aria-label="Become a member"
